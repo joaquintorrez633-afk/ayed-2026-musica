@@ -1,4 +1,5 @@
 from src.config import TEMA
+from src.dominio.musica import listar_catalogo
 
 TEMAS = {
     "pokedex": "Pokédex",

@@ -4,12 +4,16 @@ Completar y hacer crecer en cada entrega. No hace falta prosa larga: oraciones c
 
 ## 1. Grupo y tema
 
-- Tema:
-- Por qué lo eligieron (5–8 líneas):
+- Tema: musica
+- Por qué lo eligieron (5–8 líneas): esta eleccion se debe que el trabajo nos parecio interesante para desarrollar soluciones y buscar maneras creativas de prepararlo mediante vayamos avanzando.
 
 ## 2. Modelo
 
 Qué es un ítem del catálogo. Qué es mutable y qué no (E1). Cómo se relacionan catálogo, colección principal, pila y cola.
+.ITEM DEL CATALOGO: cada item representa una cancion individual con sus datos (titulo,artista,genero,etc)
+.ELEMENTOS INMUTABLES:los datos proporcionados por los items son inmutables, una vez que ecisten no pueden modificarse.
+ELEMENTOS MUTABLES:el catalogo en si, es un elemento mutable. ya que , de asi quererlo o necesitarlo pueden agregarse o quitarse canciones.
+
 
 ```text
 (pueden pegar un diagrama ASCII o una lista de clases)

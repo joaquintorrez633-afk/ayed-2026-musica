@@ -6,7 +6,7 @@ Fecha de esta versión del archivo:
 
 | Entrega | Fecha | Herramienta (ChatGPT, Cursor, Copilot, otra) | Para qué (diseño, código, debug, docs) | Qué pegaron o generaron | Qué reescribieron / revisaron a mano | Integrante |
 | --- | --- | --- | --- | --- | --- | --- |
-| E1 |  |  |  |  |  |  |
+| E1 | 9/9 | meta ia |utilizamos para guiarnos en la preparacion teorica de E1, solo en consignas y no en resoluciones  |  |  |todos  |
 | E2 |  |  |  |  |  |  |
 | E3 |  |  |  |  |  |  |
 | E4 |  |  |  |  |  |  |
