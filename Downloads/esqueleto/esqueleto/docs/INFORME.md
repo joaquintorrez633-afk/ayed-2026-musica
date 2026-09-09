@@ -10,9 +10,11 @@ Completar y hacer crecer en cada entrega. No hace falta prosa larga: oraciones c
 ## 2. Modelo
 
 Qué es un ítem del catálogo. Qué es mutable y qué no (E1). Cómo se relacionan catálogo, colección principal, pila y cola.
-.ITEM DEL CATALOGO: cada item representa una cancion individual con sus datos (titulo,artista,genero,etc)
+
+'''.ITEM DEL CATALOGO: cada item representa una cancion individual con sus datos (titulo,artista,genero,etc)
 .ELEMENTOS INMUTABLES:los datos proporcionados por los items son inmutables, una vez que ecisten no pueden modificarse.
 ELEMENTOS MUTABLES:el catalogo en si, es un elemento mutable. ya que , de asi quererlo o necesitarlo pueden agregarse o quitarse canciones.
+'''
 
 
 ```text
