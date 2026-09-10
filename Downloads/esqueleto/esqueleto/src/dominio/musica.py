@@ -6,4 +6,5 @@ catalogo= [
 def listar_catalogo():
     for item in catalogo:
         print(f'{item['id']:>3}   {item ['titulo']}  {item['artista']}' )
-        
+
+listar_catalogo()

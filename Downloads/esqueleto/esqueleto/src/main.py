@@ -1,5 +1,5 @@
 from src.config import TEMA
-from src.dominio.cancion import listar_catalogo
+from src.dominio.musica import listar_catalogo
 TEMAS = {
     "pokedex": "Pokédex",
     "recetario": "Recetario",
@@ -34,15 +34,15 @@ def main():
 
     opcion = None
     while opcion != "0":
-        mostrar_menu()
-        opcion = input("> ").strip()
-        if opcion == "0":
+         mostrar_menu()
+         opcion = input("> ").strip()
+         if opcion == "0":
             print("Chau.")
-        elif opcion == "1":
-            listar_catalogo()
-        elif opcion in {"2", "3", "4", "5", "6", "7", "8", "9"}:
+         elif opcion == "1":
+            print(listar_catalogo())
+         elif opcion in {"2", "3", "4", "5", "6", "7", "8", "9"}:
             pendiente()
-        else:
+         else:
             print("Opción inválida.")
 
 

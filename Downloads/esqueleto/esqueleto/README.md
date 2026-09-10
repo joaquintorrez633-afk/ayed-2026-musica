@@ -20,7 +20,7 @@ Desde la raíz del repo, con Python 3.10 o superior:
 python -m src.main
 ```
 
-En Windows, si `python` no anda: `py -3 -m src.main`.
+En Windows, si `python` no anda: `pc.main`.
 
 Solo biblioteca estándar. No hay `requirements.txt` a propósito.
 
