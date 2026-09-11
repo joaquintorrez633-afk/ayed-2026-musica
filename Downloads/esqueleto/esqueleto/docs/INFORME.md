@@ -2,24 +2,31 @@
 
 Completar y hacer crecer en cada entrega. No hace falta prosa larga: oraciones claras y tablas.
 
-## 1. Grupo y tema
+## Tema: Musica 
 
-- Tema: musica
-- Por qué lo eligieron (5–8 líneas): esta eleccion se debe que el trabajo nos parecio interesante para desarrollar soluciones y buscar maneras creativas de prepararlo mediante vayamos avanzando.
+- Elegimos este tema porque nos resultaba mas comodo trabajar con canciones.
 
-## 2. Modelo
+## Modelo 
 
-Qué es un ítem del catálogo. Qué es mutable y qué no (E1). Cómo se relacionan catálogo, colección principal, pila y cola.
+- Item del Catalogo: cada item representa una cancion individual con sus datos (titulo, artista, genero, duracion)
 
-'''.ITEM DEL CATALOGO: cada item representa una cancion individual con sus datos (titulo,artista,genero,etc)
-.ELEMENTOS INMUTABLES:los datos proporcionados por los items son inmutables, una vez que existen no pueden modificarse.
-ELEMENTOS MUTABLES:el catalogo en si, es un elemento mutable. ya que , de asi quererlo o necesitarlo pueden agregarse o quitarse canciones.
-'''
+- Elementos inmutables: identificadores de cada cancion (como el tema, artista), una vez que existen no se pueden cambiar.
+Decidimos asi para evitar que en un futuro, debido a un accidente (por ejemplo, que una funcion modifique el id de una cancion).
 
+- Elementos mutables: El catalogo en si, en un futuro se puede modificar.
+Se decidio asi para que, a medida que avancen las entregas, el catalogo se pueda actualizar sin tener que reahacerlo.
 
 ```text
-(pueden pegar un diagrama ASCII o una lista de clases)
+Catálogo (todos los items)
+         │
+         ▼
+Colección principal (ítems activos/gestionados)
+      ┌──┴──┐
+      ▼     ▼
+    Pila   Cola
+(historial) (pendiente)
 ```
+ 
 
 ## 3. Recursión (E2)
 
