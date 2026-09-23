@@ -1,6 +1,5 @@
 # TP integrador — AyED C2 2026
 
-<<<<<<< HEAD
 Repositorio del grupo. Partir de este esqueleto. No borrar la estructura de `src/` ni de `docs/`.
 
 ## Integrantes
@@ -44,25 +43,3 @@ Defensa oral (reemplaza el 2do parcial): 25 y 27-nov-2026.
 La cátedra corrige el **tag**, no el último commit suelto de `main`.
 
 El grupo se avisa por mail a diego.ambrossio@unab.edu.ar **y** angel.bianco@unab.edu.ar. Ver `GIT.md`.
-=======
-## Integrantes:
-
-| Nombre y Apellido | DNi | Mail | 
-| --- | --- | --- | 
-| Joaquín Torrez | 47686728 | Joaquintorrez633@gmail.com |
-| Rocco Linardi | 45300369 | roccolinardi03@gmail.com | 
-| Benjamín Molina | 47063155 | molina05benjamin@gmail.com | 
-
-## Tema
-
-**Biblioteca Musical:** Un sistema que permite consultar un catálogo de canciones, artistas y duraciones.
-
-## Cómo ejecutar
-
-Desde la raíz del repo, con Python 3.10 o superior, ir a la terminal y ejecutar el siguiente comando:
-
-```text
-python -m src.main
-``` 
-
->>>>>>> e2f5bcbec58e1bd671e1604dc504f6209547bd6e
