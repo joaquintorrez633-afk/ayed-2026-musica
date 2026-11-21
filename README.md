@@ -4,9 +4,7 @@
 
 | Nombre y Apellido | DNi | Mail | 
 | --- | --- | --- | 
-| Joaquín Torrez | 47686728 | Joaquintorrez633@gmail.com |
-| Rocco Linardi | 45300369 | roccolinardi03@gmail.com | 
-| Benjamín Molina | 47063155 | molina05benjamin@gmail.com | 
+| Rocco Linardi | 45300369 | roccolinardi03@gmail.com |
 
 ## Tema
 
@@ -19,4 +17,3 @@ Desde la raíz del repo, con Python 3.10 o superior, ir a la terminal y ejecutar
 ```text
 python -m src.main
 ``` 
-
